@@ -1,0 +1,34 @@
+/**
+  *Theme Name: The gitProject
+  *Author: Javas Therapeutic Design
+  *Author URI: http://wivass54.asuscomm.com
+  *Version: 1.0 */
+/* STYLE DOCUMENT
+  *==========================================================================
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:root {
+  font-size: 17px; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ccc; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative; }
