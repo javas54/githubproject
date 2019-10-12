@@ -1,0 +1,106 @@
+/* -- Standard design sheet 01 -- */
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../images/035.gif);
+	color: #333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 100.1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+p {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header {
+	background-color: #6B8517;
+	margin-bottom: 1.75em;
+	padding-top: 1px;
+}
+
+#homelink {
+	display: block;
+	margin: 0 1em 1em 0;
+	padding: 0.5em 0 0.5em 1em;
+	background: url(../pictures/kastanje02.jpg) 100% 100% no-repeat;
+}
+
+#navlinks {
+	margin: -0.5em auto;
+	padding: 0.5em 3em;
+	background-color: #15637a;
+	color: #fff;
+}
+
+#navlinks li {
+	display: inline;
+	margin-right: 0.5em;
+	padding-right: 0.75em;
+	border-right: 1px solid #99c;
+	font-size: 0.8em;
+
+}
+
+#navlinks li.last {
+	border-right: 0;
+}
+
+#navlinks a {
+	color: #afda29;
+}
+
+#today {
+	margin-top: -1.5em;
+	padding: 0 1em 0 0;
+	text-align: right;
+	color: #fffff0;
+	font-size: 0.8em;
+}
+
+#container {
+	margin: 0 auto;
+	width:1024px;
+}
+
+#container-row {
+	background-image: url(../images/transp.png);
+}
+
+#leftside {
+	padding: 0.5em;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: italic;
+	width: 12.50em;
+	text-align: left;
+	vertical-align: top;
+	border-right: 1px solid #636363;
+}
+
+#rightside {
+	padding: 5em 2em 5em 2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	vertical-align: top;
+}
+
+#voet{
+	margin: 50px auto;
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	font-size: 0.7em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 0.4em;
+	color: #333;
+}
