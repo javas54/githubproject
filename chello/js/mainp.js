@@ -16,7 +16,7 @@ function message(){
 }
 
 function goBack(){
-	window.location = document.referrer;
+	window.location = "../";
 	return false;
 }
 

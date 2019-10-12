@@ -10,7 +10,9 @@
   box-sizing: border-box; }
 
 :root {
-  font-size: 17px; }
+  font-size: 17px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
 
 html {
   font-family: sans-serif;
@@ -32,3 +34,15 @@ img {
   margin: 0 auto;
   padding: 0;
   position: relative; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkolivegreen;
+  font-weight: 700;
+  background-color: burlywood;
+  padding: 8px 10px; }
+
+a:hover, a:active {
+  color: chartreuse;
+  background-color: brown; }
