@@ -38,7 +38,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Eigen ignores
-log.txt
-
 # End of https://www.gitignore.io/api/sass,prepros,windows
+
+log.txt
