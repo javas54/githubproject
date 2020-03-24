@@ -40,4 +40,5 @@ $RECYCLE.BIN/
 
 # Eigen ignores
 log.txt
+
 # End of https://www.gitignore.io/api/sass,prepros,windows
