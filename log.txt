@@ -1,0 +1,1 @@
+Door de bestandsnaam log.txt op te nemen in .gitignore zal dit ge-commit worden!
