@@ -1,0 +1,177 @@
+/**
+ * *Theme Name: The gitProject
+ * *Author: Javas Therapeutic Design
+ * *Author URI: http://wivass54.asuscomm.com
+ * *Version: 1.0 */
+/* STYLE DOCUMENT
+ * *========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,700,700i");
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #dfe9fb;
+}
+
+#bladspiegel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/** Typografie */
+body {
+  font-family: "Raleway", sans-serif;
+  color: #565656;
+  font-size: 17px;
+  font-size: 1.071rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  line-height: 1.66;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.group:before, .group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+/** START BLAD */
+header {
+  background-color: #dfe9fb;
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#logo {
+  background-image: url(../images/jwplogo.png);
+  background-size: 12.5rem 4.375rem;
+  background-repeat: no-repeat;
+  margin-top: 0.5rem;
+  height: 5rem;
+  width: 17.5rem;
+  float: left;
+  text-indent: -10000px;
+}
+
+header nav {
+  float: right;
+  margin-top: 1.875rem;
+  margin-right: 0.625rem;
+}
+
+header nav h2 {
+  height: 0;
+  text-indent: -10000px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul:before {
+  content: " ";
+  display: table;
+}
+nav ul:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header nav li {
+  float: left;
+  padding: 0 0.75rem;
+}
+
+header nav a {
+  color: #565656;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+header nav a:hover {
+  color: #537895;
+  text-decoration: none;
+}
+
+header nav span {
+  color: #537895;
+  margin-left: 1.125rem;
+}
+
+#hoofdbanier img {
+  width: 100%;
+}
+
+#hoofdbanier {
+  max-height: 27.5rem;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.banier-overlay {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.banier-title {
+  color: #dfe9fb;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+  text-shadow: 2px 2px #273b5e;
+  letter-spacing: 0.25rem;
+}
+
+section {
+  margin: 2.5rem 0 3.75rem;
+}
+
+section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#mijn-bezigheden h3 {
+  height: 0;
+  text-indent: -10000px;
+}
+
+.icon-balk {
+  padding: 1.5rem 0;
+  border-radius: 1.5rem;
+}
+
+.icon-balk .fas {
+  color: #565656;
+  text-shadow: 1px 1px #537895;
+}

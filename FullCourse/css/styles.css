@@ -1,0 +1,248 @@
+/**
+ * *Theme Name: The gitProject
+ * *Author: Javas Therapeutic Design
+ * *Author URI: http://wivass54.asuscomm.com
+ * *Version: 1.0 */
+/* STYLE DOCUMENT
+ * *========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap");
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ecd6c2;
+}
+
+#bladspiegel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/** Typografie */
+body {
+  font-family: "Orbitron", sans-serif;
+  color: #8d8741;
+  font-size: 17px;
+  font-size: 1.071rem;
+  line-height: 1.66;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  line-height: 1.66;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.group:before, .group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+/** KOPTEKST **/
+header {
+  background-color: #ecd6c2;
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#logo {
+  background-image: url(../../images/jwplogo.png);
+  background-size: 12.5rem 4.375rem;
+  background-repeat: no-repeat;
+  margin-top: 0.5rem;
+  height: 5rem;
+  width: 17.5rem;
+  float: left;
+  text-indent: -10000px;
+}
+
+header nav {
+  float: right;
+  margin-top: 1.875rem;
+  margin-right: 0.625rem;
+}
+
+header nav h2 {
+  height: 0;
+  text-indent: -10000px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul:before {
+  content: " ";
+  display: table;
+}
+nav ul:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header nav li {
+  float: left;
+  padding: 0 0.75rem;
+}
+
+header nav a {
+  color: #8d8741;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+header nav a:hover {
+  color: #daad86;
+  text-decoration: none;
+}
+
+header nav span {
+  color: #daad86;
+  margin-left: 1.125rem;
+}
+
+/** HOOFDBANIER **/
+.banier-image img {
+  position: absolute;
+  top: 5.5rem;
+  left: 0;
+  width: 100%;
+}
+
+.banier-image img:last-child {
+  display: none;
+}
+
+.banier-overlay {
+  position: absolute;
+  top: 17%;
+  width: 100%;
+}
+
+.banier-title {
+  color: #daad86;
+  text-shadow: 1px 1px #8d8741;
+  font-size: 0.85rem;
+  letter-spacing: 0.25rem;
+}
+
+/** HOOFDINHOUD **/
+#hoofd-inhoud section {
+  margin: 2.5rem 0 3.75rem;
+}
+
+#hoofd-inhoud section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/** VOETTEKST **/
+/** MEDIA QUERIES **/
+@media screen and (min-width: 530px) {
+  .banier-overlay {
+    top: 13.5%;
+    left: 4%;
+  }
+
+  .banier-title {
+    font-size: 0.925rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .banier-overlay {
+    top: 13.875%;
+    left: 2%;
+  }
+
+  .banier-title {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banier-overlay {
+    top: 14.25%;
+  }
+
+  .banier-title {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .banier-overlay {
+    top: 12%;
+    left: 0;
+  }
+
+  .banier-title {
+    font-size: 1.375rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .banier-overlay {
+    top: 12.5%;
+  }
+
+  .banier-title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banier-overlay {
+    top: 17.25%;
+  }
+
+  .banier-title {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .banier-overlay {
+    top: 19.75%;
+  }
+
+  .banier-title {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .banier-overlay {
+    top: 22.5%;
+  }
+
+  .banier-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .banier-overlay {
+    top: 35%;
+  }
+
+  .banier-title {
+    font-size: 2.25rem;
+  }
+}
